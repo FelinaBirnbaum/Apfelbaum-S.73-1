@@ -1,0 +1,19 @@
+/**
+ * 
+ * @author (Felina Birnbaum) 
+ * @version (9.1.2023)
+ */
+public class Apfelbaum
+{
+    String Ort;
+    double Hoehe;
+    
+    Apfelbaum(String EinOrt,double EineHoehe){
+        Ort= EinOrt;
+        Hoehe= EineHoehe;
+        }
+        
+    void wachse(double EinBetrag){
+        if (EinBetrag > 0) Hoehe += EinBetrag;
+        }
+}
